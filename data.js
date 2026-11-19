@@ -12,7 +12,8 @@ window.SITE = {
     "phone": "0610942894",
     "linkedin": "https://www.linkedin.com/in/cabrel-fonkeu-nana-5928a7398",
     "github": "",
-    "photo": "assets/photo.jpg"
+    "photo": "assets/photo.jpg",
+    "photoV": 1795094521008
   },
   "skills": [
     {
