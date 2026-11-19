@@ -72,21 +72,6 @@ window.SITE = {
   ],
   "projects": [
     {
-      "title": "Haute disponibilité pfSense (CARP)",
-      "status": "En cours",
-      "year": "2026",
-      "summary": "Deux pare-feu pfSense en cluster CARP devant un serveur web en LAN, avec un client côté WAN.",
-      "details": "Schéma réseau réalisé avec draw.io (nom, IP, masque et passerelle de chaque machine), captures d’écran et documentation technique pour le rendu.",
-      "tags": [
-        "pfSense",
-        "CARP",
-        "Pare-feu",
-        "draw.io"
-      ],
-      "link": "",
-      "id": "haute-disponibilite-pfse-0"
-    },
-    {
       "title": "VPN site à site WireGuard",
       "status": "En cours",
       "year": "2026",
