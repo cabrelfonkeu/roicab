@@ -192,22 +192,6 @@ window.SITE = {
       "id": "glpi-8"
     },
     {
-      "title": "Horloge parlante à capteur de mouvement",
-      "status": "En cours",
-      "year": "2026",
-      "summary": "Un Raspberry Pi 4 détecte un mouvement et annonce l’heure avec une blague générée par une IA locale.",
-      "details": "La blague est produite par Ollama (llama3.2) et convertie en voix avec Piper TTS sur une VM Proxmox, puis renvoyée au Raspberry Pi en MP3.",
-      "tags": [
-        "Raspberry Pi",
-        "Ollama",
-        "Piper TTS",
-        "Python",
-        "Proxmox"
-      ],
-      "link": "",
-      "id": "horloge-parlante-a-capte-9"
-    },
-    {
       "title": "Modélisation UML et base de données",
       "status": "Terminé",
       "year": "2026",
