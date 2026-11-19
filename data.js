@@ -11,7 +11,7 @@ window.SITE = {
     "email": "Fonkeucabrel212@gmail.com",
     "phone": "0610942894",
     "linkedin": "https://www.linkedin.com/in/cabrel-fonkeu-nana-5928a7398",
-    "github": "",
+    "github": "https://github.com/cabrelfonkeu",
     "photo": "assets/photo.jpg",
     "photoV": 1795094521008
   },
