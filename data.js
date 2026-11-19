@@ -179,7 +179,7 @@ window.SITE = {
     },
     {
       "title": "GLPI",
-      "status": "Terminé",
+      "status": "En cours",
       "year": "2025",
       "summary": "Installation de GLPI sur une VM Linux, gestion des entités, des profils et des utilisateurs pour deux entreprises fictives.",
       "details": "Étude des profils (Self-Service, Technician, Super-Admin) et gestion des utilisateurs par groupes.",
