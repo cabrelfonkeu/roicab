@@ -194,7 +194,7 @@ window.SITE = {
     {
       "title": "Modélisation UML et base de données",
       "status": "Terminé",
-      "year": "2026",
+      "year": "2025",
       "summary": "Diagrammes de classes avec héritage et modèle relationnel pour une librairie et pour un vendeur d’aménagements d’utilitaires.",
       "details": "Produit en hiérarchie (équipements, meubles, kits), finitions, compatibilité véhicules, commandes et lignes de commande.",
       "tags": [
