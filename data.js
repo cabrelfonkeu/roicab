@@ -263,6 +263,16 @@ window.SITE = {
   ],
   "docs": [
     {
+      "title": "Documentation pfSense en haute disponibilité (CARP)",
+      "status": "Terminé",
+      "summary": "",
+      "projectId": "proxy-squid-et-squidguar-3",
+      "id": "5can0f",
+      "date": "2026-11-19",
+      "file": "docs/20261119-Documentation-pfSense-CARP.pdf",
+      "fileName": "Documentation-pfSense-CARP.pdf"
+    },
+    {
       "title": "Documentation Active Directory (remoteworks.local)",
       "status": "Terminé",
       "summary": "",
