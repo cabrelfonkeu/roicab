@@ -218,6 +218,16 @@ window.SITE = {
   ],
   "docs": [
     {
+      "id": "7c2jwc",
+      "title": "Documentation : GLPI",
+      "summary": "",
+      "status": "Terminé",
+      "date": "2026-11-19",
+      "projectId": "glpi-8",
+      "file": "docs/20261119-CabrelFonkeu_Tp_Glpi-1-.pdf",
+      "fileName": "CabrelFonkeu_Tp_Glpi (1).pdf"
+    },
+    {
       "title": "Documentation pfSense en haute disponibilité (CARP)",
       "status": "Terminé",
       "summary": "",
