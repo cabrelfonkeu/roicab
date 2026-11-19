@@ -235,20 +235,6 @@ window.SITE = {
       ],
       "link": "",
       "id": "modelisation-uml-et-base-10"
-    },
-    {
-      "title": "Application de transports routiers",
-      "status": "Terminé",
-      "year": "2026",
-      "summary": "Règles métier, matrice des droits et user stories pour une application de suivi de camions et de trajets.",
-      "details": "Trois rôles (administrateur, gestionnaire, chauffeur) et documentation versionnée sous Git dans un README.md.",
-      "tags": [
-        "Git",
-        "User stories",
-        "Markdown"
-      ],
-      "link": "",
-      "id": "application-de-transport-11"
     }
   ],
   "cvs": [
