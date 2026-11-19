@@ -88,7 +88,7 @@ window.SITE = {
     },
     {
       "title": "Domaine Active Directory",
-      "status": "En cours",
+      "status": "Terminé",
       "year": "2026",
       "summary": "Forêt remoteworks.local sur Proxmox : deux contrôleurs de domaine et un client, GPO, profils itinérants, quotas et sauvegardes.",
       "details": "Audit de sécurité avec PingCastle ou HardenAD, et script PowerShell unique pour déployer les exercices 1 à 8.",
