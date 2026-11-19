@@ -1,7 +1,6 @@
 // ====== CONTENU DU SITE ROICAB ======
-// Modifie ce fichier pour changer le site : profil, compétences, projets, CV.
-// Chaque projet est un bloc { ... }, séparé par une virgule. Le premier projet est affiché en premier.
-// Pour un CV : dépose le PDF dans le dossier cv/ puis ajoute un bloc dans la liste cvs (le plus récent en premier, current:true pour la version actuelle).
+// Ce fichier est mis à jour automatiquement par le mode édition du site (bouton « Espace propriétaire »).
+// Tu peux aussi le modifier à la main : garde les guillemets et les virgules.
 window.SITE = {
   "profile": {
     "name": "Cabrel Fonkeu Nana",
@@ -10,7 +9,7 @@ window.SITE = {
     "about": "Étudiant en 2ᵉ année à l’EPSI Nantes, orienté infrastructure, réseaux et DevOps. Je monte et sécurise des architectures complètes (pare-feu redondants, VPN, annuaire, virtualisation) et j’automatise leur déploiement par script.",
     "available": true,
     "email": "Fonkeucabrel212@gmail.com",
-    "phone": "",
+    "phone": "0610942894",
     "linkedin": "https://www.linkedin.com/in/cabrel-fonkeu-nana-5928a7398",
     "github": "",
     "photo": "assets/photo.jpg"
@@ -19,8 +18,13 @@ window.SITE = {
     {
       "cat": "Réseaux",
       "items": [
-        "TCP/IP, VLAN, DHCP, DNS",
-        "Routage, HSRP, CARP",
+        "TCP/IP",
+        "VLAN",
+        "DHCP",
+        "DNS",
+        "Routage",
+        "HSRP",
+        "CARP",
         "VPN WireGuard",
         "Proxy Squid / SquidGuard"
       ]
@@ -29,28 +33,39 @@ window.SITE = {
       "cat": "Sécurité",
       "items": [
         "Pare-feu pfSense",
-        "Durcissement Active Directory (PingCastle, HardenAD)"
+        "Durcissement Active Directory (PingCastle",
+        "HardenAD)"
       ]
     },
     {
       "cat": "Systèmes & virtualisation",
       "items": [
-        "Windows Server, Active Directory, GPO",
-        "Linux Debian, Apache, MariaDB/MySQL",
-        "Proxmox VE, Vagrant"
+        "Windows Server",
+        "Active Directory",
+        "GPO",
+        "Linux Debian",
+        "Apache",
+        "MariaDB/MySQL",
+        "Proxmox VE",
+        "Vagrant"
       ]
     },
     {
       "cat": "Scripting & outils",
       "items": [
-        "Bash, PowerShell, Git",
+        "Bash",
+        "PowerShell",
+        "Git",
         "GLPI (support et gestion de parc)"
       ]
     },
     {
       "cat": "Développement",
       "items": [
-        "HTML5/CSS3, PHP, SQL, UML"
+        "HTML5/CSS3",
+        "PHP",
+        "SQL",
+        "UML"
       ]
     }
   ],
@@ -67,7 +82,8 @@ window.SITE = {
         "Pare-feu",
         "draw.io"
       ],
-      "link": ""
+      "link": "",
+      "id": "haute-disponibilite-pfse-0"
     },
     {
       "title": "VPN site à site WireGuard",
@@ -81,7 +97,8 @@ window.SITE = {
         "VLAN",
         "VPN"
       ],
-      "link": ""
+      "link": "",
+      "id": "vpn-site-a-site-wireguar-1"
     },
     {
       "title": "Domaine Active Directory",
@@ -96,11 +113,12 @@ window.SITE = {
         "PingCastle",
         "Proxmox"
       ],
-      "link": ""
+      "link": "",
+      "id": "domaine-active-directory-2"
     },
     {
       "title": "Proxy Squid et SquidGuard",
-      "status": "Réalisé",
+      "status": "Terminé",
       "year": "2026",
       "summary": "Proxy Squid avec filtrage par blacklists de domaines et d’URL, et page de blocage personnalisée.",
       "details": "Environnement Vagrant avec une machine squid_proxy et une machine squid_client.",
@@ -110,7 +128,8 @@ window.SITE = {
         "Vagrant",
         "Proxy"
       ],
-      "link": ""
+      "link": "",
+      "id": "proxy-squid-et-squidguar-3"
     },
     {
       "title": "Réseau d’entreprise TechNova SARL",
@@ -123,7 +142,8 @@ window.SITE = {
         "pfSense",
         "VLAN"
       ],
-      "link": ""
+      "link": "",
+      "id": "reseau-d-entreprise-tech-4"
     },
     {
       "title": "Laboratoire réseau Proxmox",
@@ -137,11 +157,12 @@ window.SITE = {
         "nftables",
         "dnsmasq"
       ],
-      "link": ""
+      "link": "",
+      "id": "laboratoire-reseau-proxm-5"
     },
     {
       "title": "Redondance HSRP",
-      "status": "Réalisé",
+      "status": "Terminé",
       "year": "2026",
       "summary": "Deux routeurs Cisco 4331 en HSRP sur deux VLAN (192.168.0.0/24 et 10.0.0.0/24), avec test de bascule.",
       "details": "Identification du routeur actif et du routeur en veille, puis coupure du routeur actif pour valider la bascule.",
@@ -151,11 +172,12 @@ window.SITE = {
         "VLAN",
         "Redondance"
       ],
-      "link": ""
+      "link": "",
+      "id": "redondance-hsrp-6"
     },
     {
       "title": "Script de déploiement Bash",
-      "status": "Réalisé",
+      "status": "Terminé",
       "year": "2026",
       "summary": "Script qui prend l’IP d’une VM et un rôle (web, bdd, wordpress, firewall) et configure la machine par SSH.",
       "details": "Une fonction par rôle : Apache et PHP, MariaDB, WordPress, règles iptables. Mot de passe sudo saisi sans écho. Soutenance orale en groupe.",
@@ -166,11 +188,12 @@ window.SITE = {
         "MariaDB",
         "iptables"
       ],
-      "link": ""
+      "link": "",
+      "id": "script-de-deploiement-ba-7"
     },
     {
       "title": "GLPI",
-      "status": "Réalisé",
+      "status": "Terminé",
       "year": "2026",
       "summary": "Installation de GLPI sur une VM Linux, gestion des entités, des profils et des utilisateurs pour deux entreprises fictives.",
       "details": "Étude des profils (Self-Service, Technician, Super-Admin) et gestion des utilisateurs par groupes.",
@@ -179,7 +202,8 @@ window.SITE = {
         "Linux",
         "Support"
       ],
-      "link": ""
+      "link": "",
+      "id": "glpi-8"
     },
     {
       "title": "Horloge parlante à capteur de mouvement",
@@ -194,11 +218,12 @@ window.SITE = {
         "Python",
         "Proxmox"
       ],
-      "link": ""
+      "link": "",
+      "id": "horloge-parlante-a-capte-9"
     },
     {
       "title": "Modélisation UML et base de données",
-      "status": "Réalisé",
+      "status": "Terminé",
       "year": "2026",
       "summary": "Diagrammes de classes avec héritage et modèle relationnel pour une librairie et pour un vendeur d’aménagements d’utilitaires.",
       "details": "Produit en hiérarchie (équipements, meubles, kits), finitions, compatibilité véhicules, commandes et lignes de commande.",
@@ -207,11 +232,12 @@ window.SITE = {
         "SQL",
         "Héritage"
       ],
-      "link": ""
+      "link": "",
+      "id": "modelisation-uml-et-base-10"
     },
     {
       "title": "Application de transports routiers",
-      "status": "Réalisé",
+      "status": "Terminé",
       "year": "2026",
       "summary": "Règles métier, matrice des droits et user stories pour une application de suivi de camions et de trajets.",
       "details": "Trois rôles (administrateur, gestionnaire, chauffeur) et documentation versionnée sous Git dans un README.md.",
@@ -220,7 +246,8 @@ window.SITE = {
         "User stories",
         "Markdown"
       ],
-      "link": ""
+      "link": "",
+      "id": "application-de-transport-11"
     }
   ],
   "cvs": [
@@ -232,5 +259,6 @@ window.SITE = {
       "file": "cv/CV_Cabrel_Fonkeu_Nana_2026-10.pdf",
       "current": true
     }
-  ]
+  ],
+  "docs": []
 };
