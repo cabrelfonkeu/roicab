@@ -261,5 +261,16 @@ window.SITE = {
       "current": true
     }
   ],
-  "docs": []
+  "docs": [
+    {
+      "title": "Documentation Active Directory (remoteworks.local)",
+      "status": "Terminé",
+      "summary": "",
+      "projectId": "domaine-active-directory-2",
+      "id": "1gemaz",
+      "date": "2026-11-19",
+      "file": "docs/20261119-B2_Fonkeu_Cabrel-Documentation-Active-Directory.pdf",
+      "fileName": "B2_Fonkeu_Cabrel-Documentation-Active-Directory.pdf"
+    }
+  ]
 };
